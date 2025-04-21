@@ -1,0 +1,14 @@
+***** Authentication and authorization
+
+
+
+Authentication means if a user is looged in or not and authorization means if a user is logged in then which parts of data he/she can access
+
+
+
+**** file structure 
+config  -- er modhe connection er code tha mongo db er sathe mongoose diye 
+controllers -- er modhe sob control code thake like get,create,update,delete ... also er modhe product , user egula thake 
+routes ---- /api/something eta thake
+models  ---- schema thake 
+middlewares
