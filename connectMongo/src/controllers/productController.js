@@ -14,7 +14,8 @@ import {Product} from "../models/productModel.js"
   
 
 export const getProduct =  async (req, res) => {
-    try {
+  try {
+      // user: 
       const products = await Product.find();
       res.json(products);
     } catch (error) {
